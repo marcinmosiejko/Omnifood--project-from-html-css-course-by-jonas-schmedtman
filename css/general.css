@@ -38,6 +38,7 @@ Paragraph default: 1.6
 --- 04 BORDER-RADIUS
 
 Default: 9px
+Medium: 11px
 
 
 --- 05 WHITESPACE
@@ -149,7 +150,8 @@ body {
   border-radius: 9px;
 
   /* Always put transition on original "state"  */
-  transition: background-color 300ms;
+  /* transition: background-color 300ms; */
+  transition: all 300ms;
 }
 
 .btn--full:link,
@@ -179,6 +181,36 @@ body {
   box-shadow: inset 0 0 0 3px #fff;
 }
 
+.link:link,
+.link:visited {
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #e67e22;
+  /* to keep same element size but hide underline */
+  border-bottom: 1px solid transparent;
+}
+
+/* HELPER/SETTINGS CLASSES */
+
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+.center-text {
+  text-align: center;
+}
+
+strong {
+  font-weight: 500;
 }
