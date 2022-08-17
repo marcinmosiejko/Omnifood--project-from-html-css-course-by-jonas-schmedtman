@@ -613,7 +613,7 @@
   line-height: 1.6;
 }
 
-.contacts p {
+.contacts p:first-of-type {
   margin-bottom: 2.4rem;
 }
 
