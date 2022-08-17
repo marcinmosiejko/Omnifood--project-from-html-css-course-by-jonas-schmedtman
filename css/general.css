@@ -72,6 +72,9 @@ html {
     Therefore, instead of changing it to 10px, we change it to a percentage value by which we would have to multiply that default 16px size to achieve 10px, which is 62.5% */
   font-size: 62.5%;
   overflow-x: hidden;
+
+  /* Doesn't work for Safari and browsers using safari engine (all iphones, ipads etc) */
+  /* scroll-behavior: smooth; */
 }
 
 body {
