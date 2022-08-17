@@ -71,6 +71,7 @@ html {
   /* We have to take into account users that for some reason changed their default font-size in the browser. By setting html’s element font-size to 10px we will reset this setting on our website, which may lead to poor experience for a user.
     Therefore, instead of changing it to 10px, we change it to a percentage value by which we would have to multiply that default 16px size to achieve 10px, which is 62.5% */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -78,6 +79,9 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+
+  /* Only works if there is nothing absolutely positioned in relation to body */
+  overflow-x: hidden;
 }
 
 /********************************/
