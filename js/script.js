@@ -17,7 +17,7 @@ const currentYear = new Date().getFullYear();
 yearEl.textContent = currentYear;
 
 /////////////////////////////////////////
-// SMOOTH SCROLLING ANIMATION
+// SMOOTH SCROLLING
 const bodyEl = document.querySelector("body");
 
 bodyEl.addEventListener("click", (e) => {
@@ -44,6 +44,7 @@ bodyEl.addEventListener("click", (e) => {
     headerEl.classList.toggle("nav-open");
 });
 
+// WITHOUT EVENT BUBBLING
 // const allLinks = document.querySelectorAll("a:link");
 // allLinks.forEach((link) => {
 //   link.addEventListener("click", (e) => {
