@@ -4,10 +4,10 @@
 <br />
 <div align="center">
   <a href="https://omnifood-startup-website.netlify.app/">
-    <img src="https://github.com/mosiej803/forkify--app-from-js-course-by-jonas-schmedtman/blob/main/src/img/favicon.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/mosiej803/Omnifood--project-from-html-css-course-by-jonas-schmedtman/blob/main/img/favicon.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">forkify app</h3>
+<h3 align="center">Omnifood</h3>
 
   <p align="center">
     Omnifood is a code-along startup single-page website done as a final project from HTML and CSS course by Jonas Schmedtman
