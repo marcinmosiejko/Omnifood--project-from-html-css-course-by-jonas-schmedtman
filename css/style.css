@@ -215,7 +215,10 @@
 
 .step-img-box {
   position: relative;
+  /* text-align: center; */
+}
 
+picture {
   display: flex;
   align-items: center;
   justify-content: center;
